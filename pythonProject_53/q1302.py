@@ -63,7 +63,7 @@ def buildTree(ip):
     q = deque()
 
     # Push the root to the queue
-    q.append(root) # все потенциальные узлы, уже использованные
+    q.append(root) # все потенциальные узлы, уже взятые из массива и встроенные в дерево, но пока без своих детей
     size = size + 1
 
     # Starting from the second element
